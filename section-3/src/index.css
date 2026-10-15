@@ -1,0 +1,47 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+}
+
+.page {
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 0 16px;
+}
+
+.header-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+form {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 6px;
+  border-bottom: 1px solid #ddd;
+}
+
+li {
+  margin-bottom: 8px;
+}
+
+.error {
+  color: #c0392b;
+}
+
+.notice {
+  background: #fff3cd;
+  padding: 8px;
+}

@@ -4,5 +4,25 @@ Tech Stack
 - React Router | ส่งข้อความไปกับ redirect ได้ด้วย Navigate state และใช้ทำ RequireRole ครอบ route |
 - Context + sessionStorage | state ที่แชร์ข้ามหน้ามีแค่ผู้ใช้ที่ login จึงไม่ต้องใช้ Redux และอยู่รอดหลัง refresh จึงพิมพ์ URL ทดสอบได้
 
+----------
+
 Database
-- PostgreSQL | ตาราง users, projects, tasks มี index 2 ตัว สำหรับหน้า Employee และหน้า Admin
+- PostgreSQL | ตาราง users, projects, tasks มี index 2 ตัว สำหรับหน้า Employee และหน้า 
+
+----------
+
+วิธีรัน Project Access Control
+- cd section-3
+- npm install
+- npm run dev
+
+บัญชีทดสอบ
+กรอก username ในหน้า Login
+
+- admin
+- somchai
+- suda
+
+ข้อมูลเก็บในหน่วยความจำ กด refresh แล้ว Task ที่สร้างไว้จะหายกลับเป็นข้อมูลตั้งต้น
+
+----------
